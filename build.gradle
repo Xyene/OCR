@@ -1,0 +1,15 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+sourceCompatibility = '1.7'
+
+mainClassName = 'tk.ivybits.neural.ocr.GlyphRecognizer'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.projectlombok:lombok:1.12.2'
+    testCompile 'junit:junit:4.11'
+}
