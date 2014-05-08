@@ -3,7 +3,7 @@ apply plugin: 'application'
 
 sourceCompatibility = '1.7'
 
-mainClassName = 'tk.ivybits.neural.ocr.GlyphRecognizer'
+mainClassName = 'tk.ivybits.neural.demo.ocr.OCRDemo'
 
 repositories {
     mavenCentral()
