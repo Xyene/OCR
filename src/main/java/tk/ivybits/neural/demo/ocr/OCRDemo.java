@@ -14,11 +14,7 @@ import java.util.List;
 
 public class OCRDemo {
     public static void main(String[] argv) throws ClassNotFoundException, UnsupportedLookAndFeelException, InstantiationException, IllegalAccessException {
-//        for (UIManager.LookAndFeelInfo lf : UIManager.getInstalledLookAndFeels()) {
-//            if (lf.getName().contains("GTK")) {
-//                UIManager.setLookAndFeel(lf.getClassName());
-//            }
-//        }
+        System.setProperty("sun.java2d.opengl", "true");
         UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
         final JFrame demo = new JFrame("OCR Demo");
         demo.setLayout(new BorderLayout());
